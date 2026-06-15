@@ -4,6 +4,7 @@ date: '2026-06-04'
 description: 'Ten simple prompt injections, the common defences against them, and the one kind of defence that actually holds.'
 author: 'Ildar Iskhakov, CTO'
 image: '/blog/2026-06-04-prompt-injection-techniques.webp'
+isNote: true
 ---
 
 Every prompt injection is just text that tries to override the model's real instructions. It works because the model can't tell trusted instructions from untrusted data in the same context window.
