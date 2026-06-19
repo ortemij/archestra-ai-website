@@ -87,6 +87,8 @@ const categoryOrder = [
   'LLM Proxy',
   'MCP',
   'Knowledge',
+  'Projects',
+  'Apps',
   'Administration',
   'Archestra Desktop Agent',
   'Development',
