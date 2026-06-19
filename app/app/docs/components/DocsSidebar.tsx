@@ -1,11 +1,13 @@
 'use client';
 
 import {
+  AppWindow,
   Book,
   Bot,
   Code,
   Database,
   FileText,
+  FolderKanban,
   Layers,
   Lock,
   Menu,
@@ -34,6 +36,8 @@ const categoryIcons: Record<string, React.ReactNode> = {
   MCP: <Network className="h-4 w-4" />,
   Administration: <Lock className="h-4 w-4" />,
   Knowledge: <Database className="h-4 w-4" />,
+  Projects: <FolderKanban className="h-4 w-4" />,
+  Apps: <AppWindow className="h-4 w-4" />,
   Development: <Code className="h-4 w-4" />,
   'Getting Started': <Book className="h-4 w-4" />,
   'API Reference': <Code className="h-4 w-4" />,

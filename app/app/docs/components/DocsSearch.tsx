@@ -1,12 +1,14 @@
 'use client';
 
 import {
+  AppWindow,
   Book,
   Bot,
   ChevronRight,
   Code,
   Database,
   FileText,
+  FolderKanban,
   Layers,
   Lock,
   Monitor,
@@ -52,6 +54,8 @@ const categoryIcons: Record<string, React.ComponentType<{ className?: string }>>
   MCP: Network,
   Administration: Lock,
   Knowledge: Database,
+  Projects: FolderKanban,
+  Apps: AppWindow,
   Development: Code,
   'Getting Started': Book,
   'API Reference': Code,
