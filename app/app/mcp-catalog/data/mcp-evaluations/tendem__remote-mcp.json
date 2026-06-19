@@ -1,0 +1,87 @@
+{
+  "name": "tendem__remote-mcp",
+  "display_name": "Tendem by Toloka",
+  "description": "Hybrid AI + human-expert task service. Submit a task, Tendem scopes and quotes it, then vetted human experts execute it and return markdown plus files.",
+  "homepage": "https://tendem.ai",
+  "tools": [
+    {
+      "name": "create_task",
+      "description": "Submit a task for execution; supports conversation_id to correlate tasks"
+    },
+    {
+      "name": "get_task",
+      "description": "Poll a task's status, price, approval and result (supports long-poll via wait_for_change_seconds)"
+    },
+    {
+      "name": "get_task_result",
+      "description": "Fetch a completed task's result as markdown plus files (pre-signed URLs)"
+    },
+    {
+      "name": "list_tasks",
+      "description": "List your submitted tasks"
+    },
+    {
+      "name": "approve_task",
+      "description": "Approve a scoped quote; returns a top-up URL if balance is insufficient"
+    },
+    {
+      "name": "cancel_task",
+      "description": "Return a Tendem-UI URL to cancel a task"
+    },
+    {
+      "name": "get_account",
+      "description": "Return account balance and a top-up URL"
+    },
+    {
+      "name": "get_file_upload_url",
+      "description": "Get a URL to upload input files for a task"
+    },
+    {
+      "name": "send_message",
+      "description": "Agent-to-agent chat with the Tendem orchestrator"
+    },
+    {
+      "name": "read_chat",
+      "description": "Read the scoping/execution chat for a task"
+    }
+  ],
+  "prompts": [],
+  "keywords": [
+    "ai",
+    "human-in-the-loop",
+    "human-experts",
+    "experts",
+    "escalation",
+    "task-delegation",
+    "outsourcing",
+    "research",
+    "automation",
+    "toloka"
+  ],
+  "user_config": {},
+  "readme": null,
+  "category": "AI Tools",
+  "quality_score": 70,
+  "archestra_config": {
+    "client_config_permutations": null,
+    "oauth": {
+      "provider": null,
+      "required": false
+    },
+    "works_in_archestra": true
+  },
+  "framework": null,
+  "last_scraped_at": null,
+  "evaluation_model": null,
+  "raw_dependencies": null,
+  "author": {
+    "name": "Toloka"
+  },
+  "server": {
+    "type": "remote",
+    "url": "https://mcp.tendem.ai/mcp",
+    "docs_url": "https://tendem.ai/for/mcp"
+  },
+  "github_info": null,
+  "programming_language": null
+}
